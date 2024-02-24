@@ -8,6 +8,8 @@ namespace Mission06_Finch.Models
         {
         }
 
-        public DbSet<Form> Forms { get; set; }
+        public DbSet<Form> Movies { get; set; }
+        public DbSet<Category> Categories { get; set; }
+
     }
 }
